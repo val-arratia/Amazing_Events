@@ -1,0 +1,21 @@
+
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.card {
+    width: 20vw;
+    height: 50vh;
+}
+.card-body{
+    text-align: center;
+    font-size:small;
+}
+
+.pricebottom{
+    display: flex;
+    justify-content: space-between;
+}

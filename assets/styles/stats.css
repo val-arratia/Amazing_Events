@@ -1,0 +1,29 @@
+
+
+table {
+    border: 1px solid #65979540;
+    border-collapse: separate;
+    background-color: #fafafa;
+    width:70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  tbody {
+    border-collapse: separate;
+    background-color: #e9eff0;
+    width:auto;
+  }
+  table > thead > tr > th {
+    padding: 0.5rem;
+    background-color: #80ccc8;
+    color: #fff;
+    text-align:left;
+    font-weight: bold;
+  }
+
+  table > tbody > tr > td {
+    padding: 0.5rem;
+    text-align: left;
+    font-size: 15px;
+  }
