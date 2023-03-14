@@ -1,21 +1,50 @@
 
 
-.cards{
+#cards{
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
     margin-top: 30px;
     margin-bottom: 60px;
 }
-.card {
-    width: 20vw;
-    height: 50vh;
-}
-.card-body{
-    text-align: center;
-    font-size:small;
+
+#card {
+    width: 310px;
+    height: 480px;
+    min-height: 450px;
+    margin-bottom: 30px;
+    margin-right: 5px ;
+    padding: 15px;
 }
 
-.pricebottom{
+.card-body{
+    display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+  }
+.card-price{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.card-price {
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.card-price p{
+    margin-top:20px;
+    font-size: 1rem;
+}
+.card-price .btn {
+    background-color: #f14093c9;
+    border: pink;
+    color: #fff;
+}
+
+.card-img img{
+    width: 280px;
+    height: 28vh;
+    box-shadow: 1px 2px 5px 1px;
 }
